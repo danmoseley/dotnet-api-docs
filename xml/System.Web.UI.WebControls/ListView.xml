@@ -224,84 +224,84 @@
 
 ```
 <asp:ListView
-Â Â Â Â ConvertEmptyStringToNull="True|False"
+    ConvertEmptyStringToNull="True|False"
     DataKeyNames="string"
-Â Â Â Â DataMember="string"
-Â Â Â Â DataSource="string"
-Â Â Â Â DataSourceID="string"
-Â Â Â Â EditIndex="integer"
-Â Â Â Â Enabled="True|False"
-Â Â Â Â EnableTheming="True|False"
-Â Â Â Â EnableViewState="True|False"
-Â Â Â Â GroupPlaceholderID="string"
-Â Â Â Â GroupItemCount="integer"
-Â Â Â Â ID="string"
-Â Â Â Â InsertItemPosition="None|FirstItem|LastItem"
-Â Â Â Â ItemPlaceholderID="string"
-Â Â Â Â OnDataBinding="DataBinding event handler"
-Â Â Â Â OnDataBound="DataBound event handler"
-Â Â Â Â OnDisposed="Disposed event handler"
-Â Â Â Â OnInit="Init event handler"
-Â Â Â Â OnItemCanceling="ItemCanceling event handler"
-Â Â Â Â OnItemCommand="ItemCommand event handler"
-Â Â Â Â OnItemCreated="ItemCreated event handler"
-Â Â Â Â OnItemDataBound="ItemDataBound event handler"
-Â Â Â Â OnItemDeleted="ItemDeleted event handler"
-Â Â Â Â OnItemDeleting="ItemDeleting event handler"
-Â Â Â Â OnItemEditing="ItemEditing event handler"
-Â Â Â Â OnItemInserted="ItemInserted event handler"
-Â Â Â Â OnItemInserting="ItemInserting event handler"
-Â Â Â Â OnItemUpdated="ItemUpdated event handler"
-Â Â Â Â OnItemUpdating="ItemUpdating event handler"
-Â Â Â Â OnLayoutCreated="LayoutCreated event handler"
-Â Â Â Â OnLoad="Load event handler"
-Â Â Â Â OnPagePropertiesChanged="PagePropertiesChanged event handler"
-Â Â Â Â OnPagePropertiesChanging="PagePropertiesChanging event handler"
-Â Â Â Â OnPreRender="PreRender event handler"
-Â Â Â Â OnSelectedIndexChanged="SelectedIndexChanged event handler"
-Â Â Â Â OnSelectedIndexChanging="SelectedIndexChanging event handler"
-Â Â Â Â OnSorted="Sorted event handler"
-Â Â Â Â OnSorting="Sorting event handler"
-Â Â Â Â OnUnload="Unload event handler"
-Â Â Â Â runat="server"
-Â Â Â Â SelectedIndex="integer"
-Â Â Â Â SkinID="string"
-Â Â Â Â Style="string"
-Â Â Â Â Visible="True|False"
+    DataMember="string"
+    DataSource="string"
+    DataSourceID="string"
+    EditIndex="integer"
+    Enabled="True|False"
+    EnableTheming="True|False"
+    EnableViewState="True|False"
+    GroupPlaceholderID="string"
+    GroupItemCount="integer"
+    ID="string"
+    InsertItemPosition="None|FirstItem|LastItem"
+    ItemPlaceholderID="string"
+    OnDataBinding="DataBinding event handler"
+    OnDataBound="DataBound event handler"
+    OnDisposed="Disposed event handler"
+    OnInit="Init event handler"
+    OnItemCanceling="ItemCanceling event handler"
+    OnItemCommand="ItemCommand event handler"
+    OnItemCreated="ItemCreated event handler"
+    OnItemDataBound="ItemDataBound event handler"
+    OnItemDeleted="ItemDeleted event handler"
+    OnItemDeleting="ItemDeleting event handler"
+    OnItemEditing="ItemEditing event handler"
+    OnItemInserted="ItemInserted event handler"
+    OnItemInserting="ItemInserting event handler"
+    OnItemUpdated="ItemUpdated event handler"
+    OnItemUpdating="ItemUpdating event handler"
+    OnLayoutCreated="LayoutCreated event handler"
+    OnLoad="Load event handler"
+    OnPagePropertiesChanged="PagePropertiesChanged event handler"
+    OnPagePropertiesChanging="PagePropertiesChanging event handler"
+    OnPreRender="PreRender event handler"
+    OnSelectedIndexChanged="SelectedIndexChanged event handler"
+    OnSelectedIndexChanging="SelectedIndexChanging event handler"
+    OnSorted="Sorted event handler"
+    OnSorting="Sorting event handler"
+    OnUnload="Unload event handler"
+    runat="server"
+    SelectedIndex="integer"
+    SkinID="string"
+    Style="string"
+    Visible="True|False"
 >
-Â Â Â Â Â Â Â Â <AlternatingItemTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </AlternatingItemTemplate>
-Â Â Â Â Â Â Â Â <EditItemTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </EditItemTemplate>
-Â Â Â Â Â Â Â Â <EmptyDataTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </EmptyDataTemplate>
-Â Â Â Â Â Â Â Â <EmptyItemTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </EmptyItemTemplate>
-Â Â Â Â Â Â Â Â <GroupSeparatorTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </GroupSeparatorTemplate>
-Â Â Â Â Â Â Â Â <GroupTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </GroupTemplate>
-Â Â Â Â Â Â Â Â <InsertItemTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </InsertItemTemplate>
-Â Â Â Â Â Â Â Â <ItemSeparatorTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </ItemSeparatorTemplate>
-Â Â Â Â Â Â Â Â <ItemTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </ItemTemplate>
-Â Â Â Â Â Â Â Â <LayoutTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </LayoutTemplate>
-Â Â Â Â Â Â Â Â <SelectedItemTemplate>
-Â Â Â Â Â Â Â Â Â Â Â Â <!-- child controls -->
-Â Â Â Â Â Â Â Â </SelectedItemTemplate>
+        <AlternatingItemTemplate>
+            <!-- child controls -->
+        </AlternatingItemTemplate>
+        <EditItemTemplate>
+            <!-- child controls -->
+        </EditItemTemplate>
+        <EmptyDataTemplate>
+            <!-- child controls -->
+        </EmptyDataTemplate>
+        <EmptyItemTemplate>
+            <!-- child controls -->
+        </EmptyItemTemplate>
+        <GroupSeparatorTemplate>
+            <!-- child controls -->
+        </GroupSeparatorTemplate>
+        <GroupTemplate>
+            <!-- child controls -->
+        </GroupTemplate>
+        <InsertItemTemplate>
+            <!-- child controls -->
+        </InsertItemTemplate>
+        <ItemSeparatorTemplate>
+            <!-- child controls -->
+        </ItemSeparatorTemplate>
+        <ItemTemplate>
+            <!-- child controls -->
+        </ItemTemplate>
+        <LayoutTemplate>
+                <!-- child controls -->
+        </LayoutTemplate>
+        <SelectedItemTemplate>
+            <!-- child controls -->
+        </SelectedItemTemplate>
 </asp:ListView>
 ```
 
@@ -6866,7 +6866,15 @@
       </ReturnValue>
       <Docs>
         <summary>For a description of this member, see <see cref="E:System.Web.UI.WebControls.IPageableItemContainer.TotalRowCountAvailable" />.</summary>
-        <remarks>To be added.</remarks>
+        <remarks>
+          <format type="text/markdown"><![CDATA[
+
+## Remarks
+
+This member is an explicit interface member implementation. It can be used only when the <xref:System.Web.UI.WebControls.ListView> instance is cast to an <xref:System.Web.UI.WebControls.IPageableItemContainer> interface.
+
+          ]]></format>
+        </remarks>
         <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/bb398790(v=vs.100)">ListView Web Server Control</related>
       </Docs>
     </Member>

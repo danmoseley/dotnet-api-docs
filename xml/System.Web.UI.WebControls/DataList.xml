@@ -133,96 +133,96 @@
   
 ```  
 <asp:DataList  
-Â Â Â Â AccessKey="string"  
-Â Â Â Â BackColor="color name|#dddddd"  
-Â Â Â Â BorderColor="color name|#dddddd"  
-Â Â Â Â BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|  
+    AccessKey="string"  
+    BackColor="color name|#dddddd"  
+    BorderColor="color name|#dddddd"  
+    BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|  
         Inset|Outset"  
-Â Â Â Â BorderWidth="size"  
-Â Â Â Â Caption="string"  
-Â Â Â Â CaptionAlign="NotSet|Top|Bottom|Left|Right"  
-Â Â Â Â CellPadding="integer"  
-Â Â Â Â CellSpacing="integer"  
-Â Â Â Â CssClass="string"  
-Â Â Â Â DataKeyField="string"  
-Â Â Â Â DataMember="string"  
-Â Â Â Â DataSource="string"  
-Â Â Â Â DataSourceID="string"  
-Â Â Â Â EditItemIndex="integer"  
-Â Â Â Â Enabled="True|False"  
-Â Â Â Â EnableTheming="True|False"  
-Â Â Â Â EnableViewState="True|False"  
-Â Â Â Â ExtractTemplateRows="True|False"  
-Â Â Â Â Font-Bold="True|False"  
-Â Â Â Â Font-Italic="True|False"  
-Â Â Â Â Font-Names="string"  
-Â Â Â Â Font-Overline="True|False"  
-Â Â Â Â Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|  
+    BorderWidth="size"  
+    Caption="string"  
+    CaptionAlign="NotSet|Top|Bottom|Left|Right"  
+    CellPadding="integer"  
+    CellSpacing="integer"  
+    CssClass="string"  
+    DataKeyField="string"  
+    DataMember="string"  
+    DataSource="string"  
+    DataSourceID="string"  
+    EditItemIndex="integer"  
+    Enabled="True|False"  
+    EnableTheming="True|False"  
+    EnableViewState="True|False"  
+    ExtractTemplateRows="True|False"  
+    Font-Bold="True|False"  
+    Font-Italic="True|False"  
+    Font-Names="string"  
+    Font-Overline="True|False"  
+    Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|  
         Large|X-Large|XX-Large"  
-Â Â Â Â Font-Strikeout="True|False"  
-Â Â Â Â Font-Underline="True|False"  
-Â Â Â Â ForeColor="color name|#dddddd"  
-Â Â Â Â GridLines="None|Horizontal|Vertical|Both"  
-Â Â Â Â Height="size"  
-Â Â Â Â HorizontalAlign="NotSet|Left|Center|Right|Justify"  
-Â Â Â Â ID="string"  
-Â Â Â Â OnCancelCommand="CancelCommand event handler"  
-Â Â Â Â OnDataBinding="DataBinding event handler"  
-Â Â Â Â OnDeleteCommand="DeleteCommand event handler"  
-Â Â Â Â OnDisposed="Disposed event handler"  
-Â Â Â Â OnEditCommand="EditCommand event handler"  
-Â Â Â Â OnInit="Init event handler"  
-Â Â Â Â OnItemCommand="ItemCommand event handler"  
-Â Â Â Â OnItemCreated="ItemCreated event handler"  
-Â Â Â Â OnItemDataBound="ItemDataBound event handler"  
-Â Â Â Â OnLoad="Load event handler"  
-Â Â Â Â OnPreRender="PreRender event handler"  
-Â Â Â Â OnSelectedIndexChanged="SelectedIndexChanged event handler"  
-Â Â Â Â OnUnload="Unload event handler"  
-Â Â Â Â OnUpdateCommand="UpdateCommand event handler"  
-Â Â Â Â RepeatColumns="integer"  
-Â Â Â Â RepeatDirection="Horizontal|Vertical"  
-Â Â Â Â RepeatLayout="Table|Flow"  
-Â Â Â Â runat="server"  
-Â Â Â Â SelectedIndex="integer"  
-Â Â Â Â ShowFooter="True|False"  
-Â Â Â Â ShowHeader="True|False"  
-Â Â Â Â SkinID="string"  
-Â Â Â Â Style="string"  
-Â Â Â Â TabIndex="integer"  
-Â Â Â Â ToolTip="string"  
-Â Â Â Â UseAccessibleHeader="True|False"  
-Â Â Â Â Visible="True|False"  
-Â Â Â Â Width="size"  
+    Font-Strikeout="True|False"  
+    Font-Underline="True|False"  
+    ForeColor="color name|#dddddd"  
+    GridLines="None|Horizontal|Vertical|Both"  
+    Height="size"  
+    HorizontalAlign="NotSet|Left|Center|Right|Justify"  
+    ID="string"  
+    OnCancelCommand="CancelCommand event handler"  
+    OnDataBinding="DataBinding event handler"  
+    OnDeleteCommand="DeleteCommand event handler"  
+    OnDisposed="Disposed event handler"  
+    OnEditCommand="EditCommand event handler"  
+    OnInit="Init event handler"  
+    OnItemCommand="ItemCommand event handler"  
+    OnItemCreated="ItemCreated event handler"  
+    OnItemDataBound="ItemDataBound event handler"  
+    OnLoad="Load event handler"  
+    OnPreRender="PreRender event handler"  
+    OnSelectedIndexChanged="SelectedIndexChanged event handler"  
+    OnUnload="Unload event handler"  
+    OnUpdateCommand="UpdateCommand event handler"  
+    RepeatColumns="integer"  
+    RepeatDirection="Horizontal|Vertical"  
+    RepeatLayout="Table|Flow"  
+    runat="server"  
+    SelectedIndex="integer"  
+    ShowFooter="True|False"  
+    ShowHeader="True|False"  
+    SkinID="string"  
+    Style="string"  
+    TabIndex="integer"  
+    ToolTip="string"  
+    UseAccessibleHeader="True|False"  
+    Visible="True|False"  
+    Width="size"  
 >  
-Â Â Â Â Â Â Â Â <AlternatingItemStyle />  
-Â Â Â Â Â Â Â Â <AlternatingItemTemplate>  
+        <AlternatingItemStyle />  
+        <AlternatingItemTemplate>  
             <!-- child controls -->  
-Â Â Â Â Â Â Â Â </AlternatingItemTemplate>  
-Â Â Â Â Â Â Â Â <EditItemStyle />  
-Â Â Â Â Â Â Â Â <EditItemTemplate>  
+        </AlternatingItemTemplate>  
+        <EditItemStyle />  
+        <EditItemTemplate>  
             <!-- child controls -->  
-Â Â Â Â Â Â Â Â </EditItemTemplate>  
-Â Â Â Â Â Â Â Â <FooterStyle />  
-Â Â Â Â Â Â Â Â <FooterTemplate>  
+        </EditItemTemplate>  
+        <FooterStyle />  
+        <FooterTemplate>  
             <!-- child controls -->  
-Â Â Â Â Â Â Â Â </FooterTemplate>  
-Â Â Â Â Â Â Â Â <HeaderStyle />  
-Â Â Â Â Â Â Â Â <HeaderTemplate>  
+        </FooterTemplate>  
+        <HeaderStyle />  
+        <HeaderTemplate>  
             <!-- child controls -->  
-Â Â Â Â Â Â Â Â </HeaderTemplate>  
-Â Â Â Â Â Â Â Â <ItemStyle />  
-Â Â Â Â Â Â Â Â <ItemTemplate>  
+        </HeaderTemplate>  
+        <ItemStyle />  
+        <ItemTemplate>  
             <!-- child controls -->  
-Â Â Â Â Â Â Â Â </ItemTemplate>  
-Â Â Â Â Â Â Â Â <SelectedItemStyle />  
-Â Â Â Â Â Â Â Â <SelectedItemTemplate>  
+        </ItemTemplate>  
+        <SelectedItemStyle />  
+        <SelectedItemTemplate>  
             <!-- child controls -->  
-Â Â Â Â Â Â Â Â </SelectedItemTemplate>  
-Â Â Â Â Â Â Â Â <SeparatorStyle />  
-Â Â Â Â Â Â Â Â <SeparatorTemplate>  
+        </SelectedItemTemplate>  
+        <SeparatorStyle />  
+        <SeparatorTemplate>  
             <!-- child controls -->  
-Â Â Â Â Â Â Â Â </SeparatorTemplate>  
+        </SeparatorTemplate>  
 </asp:DataList>  
 ```  
   
@@ -3404,7 +3404,8 @@
       </ReturnValue>
       <Docs>
         <summary>For a description of this member, see <see cref="P:System.Web.UI.WebControls.IRepeatInfoUser.HasFooter" />.</summary>
-        <value>To be added.</value>
+        <value>
+          <see langword="true" /> if the list control contains a footer section; otherwise, <see langword="false" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3436,7 +3437,8 @@
       </ReturnValue>
       <Docs>
         <summary>For a description of this member, see <see cref="P:System.Web.UI.WebControls.IRepeatInfoUser.HasHeader" />.</summary>
-        <value>To be added.</value>
+        <value>
+          <see langword="true" /> if the list control contains a heading section; otherwise, <see langword="false" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3468,7 +3470,8 @@
       </ReturnValue>
       <Docs>
         <summary>For a description of this member, see <see cref="P:System.Web.UI.WebControls.IRepeatInfoUser.HasSeparators" />.</summary>
-        <value>To be added.</value>
+        <value>
+          <see langword="true" /> if the list control contains a separator; otherwise, <see langword="false" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3542,7 +3545,7 @@
       </ReturnValue>
       <Docs>
         <summary>For a description of this member, see <see cref="P:System.Web.UI.WebControls.IRepeatInfoUser.RepeatedItemCount" />.</summary>
-        <value>To be added.</value>
+        <value>The number of items in the list control.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

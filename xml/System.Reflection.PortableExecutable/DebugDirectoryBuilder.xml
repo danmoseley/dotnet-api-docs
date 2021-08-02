@@ -109,12 +109,20 @@
         <Parameter Name="age" Type="System.Int32" Index="3" FrameworkAlternate="net-6.0" />
       </Parameters>
       <Docs>
-        <param name="pdbPath">To be added.</param>
-        <param name="pdbContentId">To be added.</param>
-        <param name="portablePdbVersion">To be added.</param>
-        <param name="age">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="pdbPath">Path to the PDB. Shall not be empty.</param>
+        <param name="pdbContentId">Unique id of the PDB content.</param>
+        <param name="portablePdbVersion">Version of Portable PDB format (e.g. 0x0100 for 1.0), or 0 if the PDB is not portable.</param>
+        <param name="age">Age (iteration) of the PDB. Shall be 1 for Portable PDBs.</param>
+        <summary>Adds a CodeView entry.</summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="pdbPath" /> is <see langword="null" />.</exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="pdbPath" /> contains NUL character.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+          <paramref name="age" /> is less than 1.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+          <paramref name="portablePdbVersion" /> is smaller than 0x0100.</exception>
       </Docs>
     </Member>
     <Member MemberName="AddEmbeddedPortablePdbEntry">

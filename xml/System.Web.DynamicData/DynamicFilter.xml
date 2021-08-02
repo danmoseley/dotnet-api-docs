@@ -83,19 +83,19 @@
   
 ```  
 <asp:DynamicFilter  
-Â Â Â Â ID="Control ID"  
-Â Â Â Â DataField="Name of the data field to use for filtering"  
-Â Â Â Â EnableViewState="True|False"   
-Â Â Â Â FilterUIHint="Name of the filter template to generate the UI"  
-Â Â Â Â OnFilterChanged="Filter changed event handler"  
-Â Â Â Â OnDataBinding="DataBinding event handler"  
-Â Â Â Â OnDisposed="Disposed event handler"  
-Â Â Â Â OnInit="Init event handler"  
-Â Â Â Â OnLoad="Load event handler"  
-Â Â Â Â OnPreRender="PreRender event handler"  
-Â Â Â Â OnUnload="Unload event handler"   
-Â Â Â Â Visible="True|False"  
-Â Â Â Â runat="server"/>  
+    ID="Control ID"  
+    DataField="Name of the data field to use for filtering"  
+    EnableViewState="True|False"   
+    FilterUIHint="Name of the filter template to generate the UI"  
+    OnFilterChanged="Filter changed event handler"  
+    OnDataBinding="DataBinding event handler"  
+    OnDisposed="Disposed event handler"  
+    OnInit="Init event handler"  
+    OnLoad="Load event handler"  
+    OnPreRender="PreRender event handler"  
+    OnUnload="Unload event handler"   
+    Visible="True|False"  
+    runat="server"/>  
 ```  
   
    
@@ -417,9 +417,9 @@
         <Parameter Name="source" Type="System.Linq.IQueryable" Index="0" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       </Parameters>
       <Docs>
-        <param name="source">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="source">The data source query.</param>
+        <summary>Returns the filter repeater.</summary>
+        <returns>The filter.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -445,8 +445,8 @@
         <Parameter Name="dataSource" Type="System.Web.UI.WebControls.IQueryableDataSource" Index="0" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       </Parameters>
       <Docs>
-        <param name="dataSource">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="dataSource">The data source.</param>
+        <summary>Initializes the data source.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

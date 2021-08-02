@@ -62,62 +62,62 @@
   
 ```  
 <asp:DropDownList  
-Â Â Â Â AccessKey="string"  
-Â Â Â Â AppendDataBoundItems="True|False"  
-Â Â Â Â AutoPostBack="True|False"  
-Â Â Â Â BackColor="color name|#dddddd"  
-Â Â Â Â BorderColor="color name|#dddddd"  
-Â Â Â Â BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|  
+    AccessKey="string"  
+    AppendDataBoundItems="True|False"  
+    AutoPostBack="True|False"  
+    BackColor="color name|#dddddd"  
+    BorderColor="color name|#dddddd"  
+    BorderStyle="NotSet|None|Dotted|Dashed|Solid|Double|Groove|Ridge|  
         Inset|Outset"  
-Â Â Â Â BorderWidth="size"  
-Â Â Â Â CausesValidation="True|False"  
-Â Â Â Â CssClass="string"  
-Â Â Â Â DataMember="string"  
-Â Â Â Â DataSource="string"  
-Â Â Â Â DataSourceID="string"  
-Â Â Â Â DataTextField="string"  
-Â Â Â Â DataTextFormatString="string"  
-Â Â Â Â DataValueField="string"  
-Â Â Â Â Enabled="True|False"  
-Â Â Â Â EnableTheming="True|False"  
-Â Â Â Â EnableViewState="True|False"  
-Â Â Â Â Font-Bold="True|False"  
-Â Â Â Â Font-Italic="True|False"  
-Â Â Â Â Font-Names="string"  
-Â Â Â Â Font-Overline="True|False"  
-Â Â Â Â Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|  
+    BorderWidth="size"  
+    CausesValidation="True|False"  
+    CssClass="string"  
+    DataMember="string"  
+    DataSource="string"  
+    DataSourceID="string"  
+    DataTextField="string"  
+    DataTextFormatString="string"  
+    DataValueField="string"  
+    Enabled="True|False"  
+    EnableTheming="True|False"  
+    EnableViewState="True|False"  
+    Font-Bold="True|False"  
+    Font-Italic="True|False"  
+    Font-Names="string"  
+    Font-Overline="True|False"  
+    Font-Size="string|Smaller|Larger|XX-Small|X-Small|Small|Medium|  
         Large|X-Large|XX-Large"  
-Â Â Â Â Font-Strikeout="True|False"  
-Â Â Â Â Font-Underline="True|False"  
-Â Â Â Â ForeColor="color name|#dddddd"  
-Â Â Â Â Height="size"  
-Â Â Â Â ID="string"  
-Â Â Â Â OnDataBinding="DataBinding event handler"  
-Â Â Â Â OnDataBound="DataBound event handler"  
-Â Â Â Â OnDisposed="Disposed event handler"  
-Â Â Â Â OnInit="Init event handler"  
-Â Â Â Â OnLoad="Load event handler"  
-Â Â Â Â OnPreRender="PreRender event handler"  
-Â Â Â Â OnSelectedIndexChanged="SelectedIndexChanged event handler"  
-Â Â Â Â OnTextChanged="TextChanged event handler"  
-Â Â Â Â OnUnload="Unload event handler"  
-Â Â Â Â runat="server"  
-Â Â Â Â SelectedIndex="integer"  
-Â Â Â Â SelectedValue="string"  
-Â Â Â Â SkinID="string"  
-Â Â Â Â Style="string"  
-Â Â Â Â TabIndex="integer"  
-Â Â Â Â ToolTip="string"  
-Â Â Â Â ValidationGroup="string"  
-Â Â Â Â Visible="True|False"  
-Â Â Â Â Width="size"  
+    Font-Strikeout="True|False"  
+    Font-Underline="True|False"  
+    ForeColor="color name|#dddddd"  
+    Height="size"  
+    ID="string"  
+    OnDataBinding="DataBinding event handler"  
+    OnDataBound="DataBound event handler"  
+    OnDisposed="Disposed event handler"  
+    OnInit="Init event handler"  
+    OnLoad="Load event handler"  
+    OnPreRender="PreRender event handler"  
+    OnSelectedIndexChanged="SelectedIndexChanged event handler"  
+    OnTextChanged="TextChanged event handler"  
+    OnUnload="Unload event handler"  
+    runat="server"  
+    SelectedIndex="integer"  
+    SelectedValue="string"  
+    SkinID="string"  
+    Style="string"  
+    TabIndex="integer"  
+    ToolTip="string"  
+    ValidationGroup="string"  
+    Visible="True|False"  
+    Width="size"  
 >  
-Â Â Â Â Â Â Â Â Â Â Â Â <asp:ListItem  
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Enabled="True|False"  
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Selected="True|False"  
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Text="string"  
-Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Value="string"  
-Â Â Â Â Â Â Â Â Â Â Â Â />  
+            <asp:ListItem  
+                Enabled="True|False"  
+                Selected="True|False"  
+                Text="string"  
+                Value="string"  
+            />  
 </asp:DropDownList>  
 ```  
   
@@ -621,7 +621,15 @@
       <Parameters />
       <Docs>
         <summary>Raises events for the <see cref="T:System.Web.UI.WebControls.DropDownList" /> control on postback.</summary>
-        <remarks>To be added.</remarks>
+        <remarks>
+          <format type="text/markdown"><![CDATA[
+
+## Remarks
+
+This member is an explicit interface member implementation. It can be used only when the <xref:System.Web.UI.WebControls.DropDownList> instance is cast to an <xref:System.Web.UI.IPostBackDataHandler> interface.
+
+          ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="ToolTip">
